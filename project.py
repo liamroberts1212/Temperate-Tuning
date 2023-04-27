@@ -88,20 +88,17 @@ if __name__ == "__main__":
         for f in file:
             filelist.append('notes\\' + f)
 
+    sample_sets = dict();
     c_major = ["notes\\C3.mp3","notes\\D3.mp3",
                     "notes\\E3.mp3","notes\\F3.mp3",
                     "notes\\G3.mp3","notes\\A3.mp3",
                     "notes\\B3.mp3","notes\\C4.mp3", "notes\\D4.mp3",
                     "notes\\E4.mp3"]
-    
-    
-    active_notes = c_major
     guitar = ["cookedsamples\\1_h.mp3", "cookedsamples\\2_h.mp3", "cookedsamples\\3_h.mp3",
               "cookedsamples\\4_h.mp3", "cookedsamples\\5_h.mp3","cookedsamples\\6_h.mp3",
               "cookedsamples\\1E.mp3", "cookedsamples\\1A.mp3", "cookedsamples\\1D.mp3", "cookedsamples\\1G.mp3", "cookedsamples\\1B.mp3",
               "cookedsamples\\1ee.mp3", "cookedsamples\\2E.mp3", "cookedsamples\\2A.mp3", "cookedsamples\\2D.mp3", "cookedsamples\\2G.mp3",
               "cookedsamples\\2B.mp3", "cookedsamples\\2ee.mp3"]
-    
     alt_tuning = [
         "cookedsamples\\full_harm_1.mp3", "cookedsamples\\full_harm_2.mp3", "cookedsamples\\full_harm_3.mp3",
         "cookedsamples\\open_strum.mp3", "cookedsamples\\low3.mp3", "cookedsamples\\riff1.mp3", "cookedsamples\\riff1_high.mp3",
@@ -118,7 +115,6 @@ if __name__ == "__main__":
         "cookedsamples\\lowe.mp3","cookedsamples\\a.mp3","cookedsamples\\d.mp3"
         ,"cookedsamples\\g.mp3","cookedsamples\\b.mp3","cookedsamples\\ehigh.mp3"
     ]
-
     alt_tuning_detuned = ["cookedsamples\\full_harm_1.mp3", "cookedsamples\\full_harm_2.mp3", "cookedsamples\\full_harm_3.mp3",
         "cookedsamples\\open_strum.mp3", "cookedsamples\\low3.mp3", "cookedsamples\\riff1.mp3", "cookedsamples\\riff1_high.mp3",
         "cookedsamples\\riff2.mp3", "cookedsamples\\riff2_high.mp3", "cookedsamples\\top4.mp3",
@@ -133,6 +129,11 @@ if __name__ == "__main__":
         "cookedsamples\\glow_h.mp3","cookedsamples\\blow_h.mp3","cookedsamples\\elow_high.mp3",
         "cookedsamples\\altlowe.mp3","cookedsamples\\alta.mp3","cookedsamples\\altd.mp3"
         ,"cookedsamples\\altg.mp3","cookedsamples\\altb.mp3","cookedsamples\\altehigh.mp3"]
+    
+    
+    
+
+    
 
     piano = [
         "notes\\C3.mp3",
